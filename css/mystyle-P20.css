@@ -310,7 +310,7 @@ header .menu li a:hover {
 
 .services .h2 {
     color: #444;
-    padding:0 150px;
+    padding: 0 150px;
 }
 
 .services span {
@@ -420,35 +420,31 @@ footer {
 
 }
 
-footer .container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center
+
+
+.fo-details h4 {
+    border-bottom: 1px solid #03a9f4;
+    width:70%;
+    padding-bottom:5px
+    
 }
 
-footer .part {
-    flex-basis: 23%;
-    border: 1px solid transparent
-        /* for testing */
+.fo-details span {
+    color: #03a9f4
 }
 
-footer h3 {
-    color: #fff;
-    text-transform: capitalize
+.fo-details p {
+    font-size: 12px
 }
 
-footer .social-icons ul {
-    display: flex;
-    justify-content: space-around;
-}
 
-footer .social-icons a {
-    margin: -20px;
+footer .social-icons li {
+    display: inline-block;
+    margin-right: 20px;
 }
 
 footer .social-icons i {
     font-size: 28px;
-    flex-basis: 25%;
     transition: 1s;
 }
 
@@ -473,25 +469,6 @@ footer .social-icons i {
 }
 
 
-footer .footer-lists {
-    display: flex;
-    justify-content: space-around;
-    margin-right: 140px
-}
-
-/*footer .footer-lists  a{
-    padding:150px 0
-}*/
-
-footer .useful-links h3 {
-    margin-left: 30px;
-
-}
-
-footer .contacts h3 {
-    margin-left: 45px;
-}
-
 footer .contacts i {
     color: #03A9F4;
     margin-right: 7px;
@@ -499,20 +476,21 @@ footer .contacts i {
     padding-top: 5px;
 }
 
-footer .contacts ul li {
-    padding: 1px 10px;
+footer /*.contacts*/ li {
+        font-size: 12px;
+
 }
 
 footer button {
     background: transparent;
     border-radius: 15px;
     color: #03A9F4;
-    border: 2px solid #03A9F4;
-    padding: 7px 30px;
+    border: 1px solid #03A9F4;
     cursor: pointer;
     text-transform: capitalize;
     transition: 0.5s;
-    font-weight: 700;
+    font-weight: 400;
+    padding:5px 25px
 
 }
 
@@ -521,11 +499,7 @@ footer button:hover {
     background: #03A9F4
 }
 
-footer .newsletter {
-    padding-left: 25px;
-    margin-bottom: 40px;
 
-}
 
 footer input[type=email] {
     background: #333;
@@ -538,13 +512,12 @@ footer input[type=email] {
     border: 1px solid transparent
 }
 
-footer .copyrights {
-    background-color: #2d2c2c;
-
-}
-
-footer .copyrights p {
-    font-size: 12px
+.copyrights p {
+    font-size: 12px;
+    color:#999;
+    margin:0;
+    padding:5px 15px;
+    border-left:3px solid #03a9f4
 }
 
 /* end footer */
