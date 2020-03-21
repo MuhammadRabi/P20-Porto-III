@@ -379,6 +379,12 @@ header .menu li a:hover {
 
 /* end services section */
 
+/* new-section-trial */
+
+.new-section-trial
+
+/* new-section-trial */
+
 /* start scroll-top-top */
 
 .scroll-to-top {
@@ -424,9 +430,8 @@ footer {
 
 .fo-details h4 {
     border-bottom: 1px solid #03a9f4;
-    width:70%;
-    padding-bottom:5px
-    
+    width: 70%;
+    padding-bottom: 5px
 }
 
 .fo-details span {
@@ -476,8 +481,11 @@ footer .contacts i {
     padding-top: 5px;
 }
 
-footer /*.contacts*/ li {
-        font-size: 12px;
+footer
+
+/*.contacts*/
+li {
+    font-size: 12px;
 
 }
 
@@ -490,8 +498,7 @@ footer button {
     text-transform: capitalize;
     transition: 0.5s;
     font-weight: 400;
-    padding:5px 25px
-
+    padding: 5px 25px
 }
 
 footer button:hover {
@@ -514,10 +521,10 @@ footer input[type=email] {
 
 .copyrights p {
     font-size: 12px;
-    color:#999;
-    margin:0;
-    padding:5px 15px;
-    border-left:3px solid #03a9f4
+    color: #999;
+    margin: 0;
+    padding: 5px 15px;
+    border-left: 3px solid #03a9f4
 }
 
 /* end footer */
